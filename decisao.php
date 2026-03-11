@@ -1,0 +1,32 @@
+<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almafisio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo.png">
+</head>
+
+<body>
+    <div class="menu-topo">
+        <img src="imagens/logo.png" alt="Logo do sistema" class="logo">
+        <a href="registro.php" class="link-sair">
+            <img src="imagens/sair.png" alt="Sair do sistema" class="sair">
+        </a>
+    </div>
+    <h1 class="log">SELECIONE SEU LOGIN</h1>
+    <div class="login-opcoes">
+        <a href="user.php"><img class="imagem" src="imagens/user2.png"></a>
+        <a href="adm.php"><img class="imagem" src="imagens/admi.png"></a>
+    </div>
+
+    <br>
+    <p style="text-align: center;">Não tem conta?<a href="registro.php">Cadastre-se aqui.</a></p>
+</body>
+
+</html>
+
+</html>
